@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 0.1rem solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    grid-template-rows: repeat(2, 20rem);
+    gap: 2rem;
+}
+
+.boxes {
+    border-radius: 1rem;
+}
+
+.box1 {
+    background-color: hsl(235, 46%, 20%);
+    grid-column: 1/2;
+    grid-row: 1/3;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+
+.box2 {
+    background-color: hsl(15, 100%, 70%);
+}
+
+.box3 {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.box4 {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.box5 {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.box6 {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.box7 {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.imageDiv {
+    color: white;
+    padding: 1rem 0;
+    background-color: #5746ea;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 70%;
+  }
+  
+  .image1 {
+    width: 5rem;
+    height: 5rem;
+    background-color: #5746ea;
+    border-radius: 50%;
+    border: 0.2rem solid white;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+.image1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.Schedules {
+    /* padding-left: 2rem 2rem; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+.DaysListing li {
+    color: grey;
+   margin: 1rem;
+   padding: 1rem;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+#me {
+    /* margin-top: 1rem; */
+    /* text-align: left; */
+
+}
+
+.DaysListing li:nth-child(1) {
+    color: white;
+  }
+  
+  .box2_box {
+    background-color: hsl(235, 46%, 20%);
+    height: 70%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+  }
+
+  #NormalListing {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  h1 {
+    color: white;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+
+  p {
+    color: white;
+    padding: 2rem;
+    margin-top: 0.2rem;
+
+  }
+
+  .boxes img {
+    width: 5rem;
+    height: 5rem;
+    filter: drop-shadow(0mm -6mm 4mm rgb(10, 0, 210));
+    display: -webkit-box;
+    margin-left: auto;
+    /* filter: contrast(16px); */
+  }

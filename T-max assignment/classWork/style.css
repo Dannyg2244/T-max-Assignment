@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    grid-template-rows: repeat(2, 20rem);
+    grid-template-areas: "box1 box1 box2 box3"
+                         "box4 box5 box5 box3";
+    gap: 2rem;
+    
+}
+
+.box1 {
+    background-color: hsl(263, 55%, 52%);
+    grid-area: box1;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.box2 {
+    background-color: hsl(217, 19%, 35%);
+    grid-area: box2;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.box3 {
+    background-color: hsl(0, 0%, 100%);
+    grid-area: box3;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.box4 {
+    background-color: hsl(0, 0%, 100%);
+    grid-area: box4;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.box5 {
+    background-color: hsl(219, 29%, 14%);
+    grid-area: box5;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.box11 {
+    display: flex;
+}
+
+.box11 img {
+    margin-right: 1.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: #5746ea;
+    border-radius: 50%;
+    border: 0.2rem solid white;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.box11 h5 {
+    color: gray;
+    font-family: Barlow Semi Condensed;
+    font-size: 1rem;
+    font-display: 2rem;
+}
+
+.text h3 {
+    color: white;
+    font-family: Barlow Semi Condensed;
+    margin-bottom: 4rem;
+    /* text-overflow: inherit; */
+    position: absolute;
+    top: 160px;
+    /* left: 14px; */
+
+}
+
+.text p {
+    /* padding-bottom: 2rem; */
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 2.5rem;
+}
+
+.text1 h3 {
+    color: gray;
+    font-size: 1.5rem;
+    font-family: Barlow Semi Condensed;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: grey;
+}
+
+.p {
+    color: black;
+}
+
+.p2 {
+    font-size: 1.2rem;
+}
+
+.p1 {
+    font-size: 1.5rem;
+}
+.p4 {
+    color: white;
+}
+.box12 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right img {
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    filter: contrast(3px);
+    width: 6rem;
+    height: 6rem;
+    margin-right: 3rem;
+    /* margin-top: 2rem; */
+}
+.left {
+    display: flex;
+}
+.left img {
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.left h5 {
+    color: gray;
+    font-family: Barlow Semi Condensed;
+    font-size: 1rem;
+    font-display: 2rem;
+    margin-left: 1rem;
+}
+
+.h4 {
+    margin-top: overlap;
+    color: white;
+}
